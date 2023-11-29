@@ -56,7 +56,7 @@
 
             <div class = "bloco_postagem">
                 
-                <textarea class = "bloco_postagem_texto" placeholder = "Compartilhe conteúdo com seus colegas"></textarea>
+                <textarea class = "bloco_postagem_texto" placeholder = "Compartilhe conteúdo com seus colegas" @bind = "@texto_postagem"></textarea>
                 
                 <div class = "bloco_postagem_arquivo">    
                     <input class = "bloco_postagem_arquivo_button" type = "file" />   
@@ -65,7 +65,7 @@
             </div>
             
             
-            <button class = "publicar">Publicar</button>
+            <button class = "publicar" @onclick = "AddPostagem">Publicar</button>
             
             
             <div class = "bloco_para_postagem">
@@ -96,6 +96,22 @@
 
         </div>
 
+        @if (Postagens.Any()){
+            @foreach (var prod in Postagens)
+            {
+                <div>
+                    <span>@prod.Id</span>
+                    <span>@prod.IdUsuario</span>
+                    <span>@prod.Descricao</span>                                        
+                </div>
+            }
+        }
+        else
+        {
+            <div><span><strong>Nenhuma postagem foi feita</strong></span></div>
+        }
+                
+
     </section> 
 
 </section>
@@ -104,6 +120,9 @@
 
 @code {
 
+    private string texto_postagem {get; set;} = "";
+
+    private int a {get; set;}= 20;
     List<Postagem> Postagens = new List<Postagem>();
     protected override async Task OnInitializedAsync()
     {
@@ -114,6 +133,15 @@
     private async Task AtualizaPostagens()
     {
         Postagens = await service.RetornaPostagemAsync();
+    }
+
+    public async Task AddPostagem(){
+
+        a++;
+        
+        Postagem teste = new Postagem(a,2,texto_postagem);
+
+        await service.AddPostagemAsync(teste);
     }
 
 }
