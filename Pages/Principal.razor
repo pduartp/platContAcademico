@@ -1,0 +1,120 @@
+@page "/principal"
+
+@inject PostagemServices service
+
+@inherits LayoutComponentBase
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel = "stylesheet" href = "Principal.razor.css">
+    <link rel='stylesheet' href='//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css'
+        type='text/css'>
+
+</head>
+
+<section class = "tela">
+
+    <header class = "bloco1">
+        <div class = "title_nav">
+            <span>Em alta</span>
+        </div>
+
+        <div class = "tag">
+            <span>#tag1</span>
+        </div>
+
+        <div class = "tag">
+            <span>#tag2</span>
+        </div>
+
+        <div class = "tag">
+            <span>#tag3</span>
+        </div>
+
+        <div class = "tag">
+            <span>#tag4</span>
+        </div>
+        
+    </header>
+
+    <section  class = "bloco2">
+        <div style = "margin-bottom:50px;" class = "bloco21">
+            <div class = "bloco2_title">
+                <h1>Sua plataforma</h1>
+            </div>
+
+            <div class = "bloco_pesquisa">
+                
+                <input class = "barra" type = "text" placeholder = "Nos diga o que você está procurando" />
+                                
+                <button class = "pesquisar">Pesquisar</button>
+                
+            </div>
+
+            <div class = "bloco_postagem">
+                
+                <textarea class = "bloco_postagem_texto" placeholder = "Compartilhe conteúdo com seus colegas"></textarea>
+                
+                <div class = "bloco_postagem_arquivo">    
+                    <input class = "bloco_postagem_arquivo_button" type = "file" />   
+                </div>
+
+            </div>
+            
+            
+            <button class = "publicar">Publicar</button>
+            
+            
+            <div class = "bloco_para_postagem">
+                <div class = "bloco_postagem_feita">
+
+                    <div class = "bloco_postagem_feita_user">
+
+                        <div class = "bloco_postagem_feita_user_esquerda">
+                        
+                            <div class = "bloco_postagem_feita_user_image"></div>
+                            <div class = "bloco_postagem_feita_user_name"><span> Nome do usuário </span></div>
+                        
+                        </div>
+
+                        <div class = "buttons">
+                            <div class = "button_editar">excluir</div>
+                            <div class = "button_excluir">editar</div>
+                        </div>
+
+                    </div>    
+
+                    <div style = "margin-top:0px; height:400px;" class = "bloco_postagem_feita_texto"> 
+                        Exemplo de postagem.             
+                    </div>
+
+                </div>   
+            </div>    
+
+        </div>
+
+    </section> 
+
+</section>
+
+
+
+@code {
+
+    List<Postagem> Postagens = new List<Postagem>();
+    protected override async Task OnInitializedAsync()
+    {
+        await AtualizaPostagens();
+    }
+
+
+    private async Task AtualizaPostagens()
+    {
+        Postagens = await service.RetornaPostagemAsync();
+    }
+
+}
+
