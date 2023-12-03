@@ -1,0 +1,129 @@
+/* Reset CSS */
+
+/* Box-sizing reset */
+*[b-d11ylnvvgr],
+*[b-d11ylnvvgr]::before,
+*[b-d11ylnvvgr]::after {
+    box-sizing: border-box;
+}
+
+/* Remove margin and padding */
+body[b-d11ylnvvgr],
+h1[b-d11ylnvvgr],
+h2[b-d11ylnvvgr],
+h3[b-d11ylnvvgr],
+h4[b-d11ylnvvgr],
+h5[b-d11ylnvvgr],
+h6[b-d11ylnvvgr],
+p[b-d11ylnvvgr],
+ul[b-d11ylnvvgr],
+ol[b-d11ylnvvgr],
+dl[b-d11ylnvvgr],
+figure[b-d11ylnvvgr],
+blockquote[b-d11ylnvvgr],
+fieldset[b-d11ylnvvgr],
+legend[b-d11ylnvvgr] {
+    margin: 0;
+    padding: 0;
+}
+
+/* Remove default list styles */
+ul[b-d11ylnvvgr],
+ol[b-d11ylnvvgr] {
+    list-style: none;
+}
+
+/* Remove default form styles */
+button[b-d11ylnvvgr],
+input[b-d11ylnvvgr],
+select[b-d11ylnvvgr],
+textarea[b-d11ylnvvgr] {
+    margin: 0;
+}
+
+/* Reset anchor styles */
+a[b-d11ylnvvgr] {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Remove default table spacing */
+table[b-d11ylnvvgr] {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+.page[b-d11ylnvvgr] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+main[b-d11ylnvvgr] {
+    flex: 1;
+}
+
+.sidebar[b-d11ylnvvgr] {
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+}
+
+.top-row[b-d11ylnvvgr] {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: flex-end;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.top-row[b-d11ylnvvgr]  a,
+.top-row .btn-link[b-d11ylnvvgr] {
+    white-space: nowrap;
+    margin-left: 1.5rem;
+}
+
+.top-row a:first-child[b-d11ylnvvgr] {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media (max-width: 640.98px) {
+    .top-row:not(.auth)[b-d11ylnvvgr] {
+        display: none;
+    }
+
+    .top-row.auth[b-d11ylnvvgr] {
+        justify-content: space-between;
+    }
+
+    .top-row a[b-d11ylnvvgr],
+    .top-row .btn-link[b-d11ylnvvgr] {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 641px) {
+    .page[b-d11ylnvvgr] {
+        flex-direction: row;
+    }
+
+    .sidebar[b-d11ylnvvgr] {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+    .top-row[b-d11ylnvvgr] {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .top-row[b-d11ylnvvgr],
+    article[b-d11ylnvvgr] {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
+}

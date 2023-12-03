@@ -1,0 +1,232 @@
+:root {
+  --cor-primaria: #50a5b7;
+  --cor-secundaria: #d9d9d9;
+  --tamanho-fonte: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+
+}
+
+.container-principal {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.menu-tags {
+  height: 100%;
+  width: 15vw;
+  background-color: #50a5b7;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.menu-tags .logo {
+  text-align: center;
+
+  margin-top: 50px;
+  margin-bottom: 60px;
+  color: #d9d9d9;
+  text-transform: uppercase;
+}
+
+.menu-tags h3 {
+  color: #d9d9d9;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.menu-tags .tags {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-tags .tags a {
+  margin-block: 10px;
+  border: 1px solid;
+  background-color: #ceedf3;
+  border-radius: 12px;
+  padding: 5px 30px;
+}
+
+.configuracoes {
+  background-color: #fbeeee;
+  width: 9.2vw;
+}
+
+.configuracoes .box-config {
+  color: #50A5B7;
+  width: 100%;
+}
+
+.secao-postagens {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fbeeee;
+
+  height: 100%;
+  width: 75vw;
+}
+
+.secao-postagens h2 {
+  color: #50a5b7;
+  font-size: 36px;
+  font-weight: bold;
+  margin-block: 25px;
+}
+
+.secao-postagens .input-search input {
+  width: 40vw;
+  background-color: #ceedf3;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  padding: 7px;
+  color: #50a5b7;
+  margin-right: 15px;
+}
+
+.secao-postagens .input-search input::placeholder {
+  color: #50a5b7;
+}
+
+.secao-postagens .input-search .search-btn {
+  color: #fff;
+  background-color: #50a5b7;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 7px 25px;
+  border: none;
+}
+
+.secao-postagens .input-search.search-btn button {
+  transition: transform 0.5s ease;
+}
+
+.secao-postagens .input-search button:hover {
+  transform: scale(1.1);
+}
+
+.secao-postagens .input-search {
+  margin-bottom: 50px;
+}
+
+.secao-postagens .publicacoes-box {
+  background-color: #fbeeee;
+  height: 100vh;
+  display: flex;
+  flex-direction: column-reverse; /* Inverter a direção da pilha */
+  align-items: center;
+}
+
+.secao-postagens .publicacao {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  margin-right: 290px;
+  background-color: #fbeeee;
+  margin-bottom: 50px;
+}
+
+.secao-postagens .publicacao .perfil {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.secao-postagens .publicacao .perfil img {
+  background-color: #50a5b7;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  padding: 20px;
+  margin-bottom: 7px;
+}
+
+.secao-postagens .publicacao .post {
+
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.secao-postagens .publicacao .post textarea {
+  background-color: #ceedf3;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  color: #50A5B7;
+  padding: 7px;
+  margin-bottom: 5px;
+}
+
+.secao-postagens .publicacao .post textarea::placeholder {
+  color: #50A5B7;
+}
+
+.secao-postagens .publicacao .post label {
+  background-color: #50A5B7;
+  width: 8vw;
+  border-radius: 8px;
+  padding: 5px;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.secao-postagens .publicacao .post .post-btn {
+  background-color: #CEEDF3;
+  width: 8vw;
+  border-radius: 8px;
+  padding: 5px;
+  color: #50A5B7;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 5px;
+  border: none;
+  outline: none;
+
+}
+
+.secao-postagens .publicacao .post button {
+  transition: transform 0.7s ease;
+}
+
+.secao-postagens .publicacao .post button:hover {
+  color: #fff;
+  background-color: #50a5b7;
+}
+
+
+.secao-postagens .publicacao .post .post-box {
+  background-color: #ceedf3;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  color: #50A5B7;
+  padding: 7px;
+  margin-bottom: 5px;
+}

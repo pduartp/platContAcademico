@@ -1,0 +1,232 @@
+:root[b-fy11e2y5pz] {
+  --cor-primaria: #50a5b7;
+  --cor-secundaria: #d9d9d9;
+  --tamanho-fonte: 16px;
+}
+
+*[b-fy11e2y5pz] {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body[b-fy11e2y5pz] {
+  width: 100%;
+  height: 100vh;
+
+}
+
+.container-principal[b-fy11e2y5pz] {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.menu-tags[b-fy11e2y5pz] {
+  height: 100%;
+  width: 15vw;
+  background-color: #50a5b7;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.menu-tags .logo[b-fy11e2y5pz] {
+  text-align: center;
+
+  margin-top: 50px;
+  margin-bottom: 60px;
+  color: #d9d9d9;
+  text-transform: uppercase;
+}
+
+.menu-tags h3[b-fy11e2y5pz] {
+  color: #d9d9d9;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.menu-tags .tags[b-fy11e2y5pz] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-tags .tags a[b-fy11e2y5pz] {
+  margin-block: 10px;
+  border: 1px solid;
+  background-color: #ceedf3;
+  border-radius: 12px;
+  padding: 5px 30px;
+}
+
+.configuracoes[b-fy11e2y5pz] {
+  background-color: #fbeeee;
+  width: 9.2vw;
+}
+
+.configuracoes .box-config[b-fy11e2y5pz] {
+  color: #50A5B7;
+  width: 100%;
+}
+
+.secao-postagens[b-fy11e2y5pz] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fbeeee;
+
+  height: 100%;
+  width: 75vw;
+}
+
+.secao-postagens h2[b-fy11e2y5pz] {
+  color: #50a5b7;
+  font-size: 36px;
+  font-weight: bold;
+  margin-block: 25px;
+}
+
+.secao-postagens .input-search input[b-fy11e2y5pz] {
+  width: 40vw;
+  background-color: #ceedf3;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  padding: 7px;
+  color: #50a5b7;
+  margin-right: 15px;
+}
+
+.secao-postagens .input-search input[b-fy11e2y5pz]::placeholder {
+  color: #50a5b7;
+}
+
+.secao-postagens .input-search .search-btn[b-fy11e2y5pz] {
+  color: #fff;
+  background-color: #50a5b7;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 7px 25px;
+  border: none;
+}
+
+.secao-postagens .input-search.search-btn button[b-fy11e2y5pz] {
+  transition: transform 0.5s ease;
+}
+
+.secao-postagens .input-search button:hover[b-fy11e2y5pz] {
+  transform: scale(1.1);
+}
+
+.secao-postagens .input-search[b-fy11e2y5pz] {
+  margin-bottom: 50px;
+}
+
+.secao-postagens .publicacoes-box[b-fy11e2y5pz] {
+  background-color: #fbeeee;
+  height: 100vh;
+  display: flex;
+  flex-direction: column-reverse; /* Inverter a direção da pilha */
+  align-items: center;
+}
+
+.secao-postagens .publicacao[b-fy11e2y5pz] {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  margin-right: 290px;
+  background-color: #fbeeee;
+  margin-bottom: 50px;
+}
+
+.secao-postagens .publicacao .perfil[b-fy11e2y5pz] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.secao-postagens .publicacao .perfil img[b-fy11e2y5pz] {
+  background-color: #50a5b7;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  padding: 20px;
+  margin-bottom: 7px;
+}
+
+.secao-postagens .publicacao .post[b-fy11e2y5pz] {
+
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.secao-postagens .publicacao .post textarea[b-fy11e2y5pz] {
+  background-color: #ceedf3;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  color: #50A5B7;
+  padding: 7px;
+  margin-bottom: 5px;
+}
+
+.secao-postagens .publicacao .post textarea[b-fy11e2y5pz]::placeholder {
+  color: #50A5B7;
+}
+
+.secao-postagens .publicacao .post label[b-fy11e2y5pz] {
+  background-color: #50A5B7;
+  width: 8vw;
+  border-radius: 8px;
+  padding: 5px;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.secao-postagens .publicacao .post .post-btn[b-fy11e2y5pz] {
+  background-color: #CEEDF3;
+  width: 8vw;
+  border-radius: 8px;
+  padding: 5px;
+  color: #50A5B7;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 5px;
+  border: none;
+  outline: none;
+
+}
+
+.secao-postagens .publicacao .post button[b-fy11e2y5pz] {
+  transition: transform 0.7s ease;
+}
+
+.secao-postagens .publicacao .post button:hover[b-fy11e2y5pz] {
+  color: #fff;
+  background-color: #50a5b7;
+}
+
+
+.secao-postagens .publicacao .post .post-box[b-fy11e2y5pz] {
+  background-color: #ceedf3;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  color: #50A5B7;
+  padding: 7px;
+  margin-bottom: 5px;
+}

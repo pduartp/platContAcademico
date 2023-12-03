@@ -1,0 +1,217 @@
+@page "/principal"
+
+@inject PostagemServices service
+@inject IJSRuntime JsRuntime
+@inject NavigationManager navigationManager
+
+@inherits LayoutComponentBase
+
+@namespace Principal
+
+<PageTitle>Principal</PageTitle>
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="Principal.razor.css">
+    <link rel='stylesheet' href='//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css'
+        type='text/css'>
+
+</head>
+
+<body>
+    <div class="container-principal">
+        <aside class="menu-tags">
+            <h1 class="logo">Logo</h1>
+
+            <h3>Em Alta</h3>
+            <div class="tags">
+                <a href="#">#Tag1</a>
+                <a href="#">#Tag2</a>
+                <a href="#">#Tag3</a>
+                <a href="#">#Tag4</a>
+                <a href="#">#Tag5</a>
+            </div>
+        </aside>
+
+        <section class="secao-postagens">
+            <h2>SuaPlataformaLogo</h2>
+
+            <div class="input-search">
+                <input type="text" placeholder="O que você está procurando?" @bind="@texto_da_busca">
+                <button class="search-btn" @onclick="BuscaPostagem">Pesquisar</button>
+            </div>
+
+            <div class="publicacao">
+                <div class="perfil">
+                    <img src="#" alt="">
+                    <span>Fulaninho</span>
+                </div>
+
+                <div class="post">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Compartilhe com seus colegas!"
+                        @bind="@texto_postagem">
+                    </textarea>
+                    <input type="file" id="fileInput" style="display: none;">
+                    <label for="fileInput" class="attachment-btn">Anexar Arquivo</label>
+                    <button class="post-btn" @onclick="AddPostagem">Publicar</button>
+                </div>
+            </div>
+            
+            <span style="color:red;">lista de postagens enquanto não foi feita nenhuma busca</span>
+            
+            <div class="publicacoes-box">
+
+                @if (clicou_em_buscar == false)
+                {
+                //adicionar css das postagens
+
+                    @if (Postagens.Any())
+                    {
+                        @foreach (var postagem in Postagens)
+                        {
+                            <div class="publicacao">
+                                <div class="perfil">
+                                    <img src="#" alt="@postagem.IdUsuario">
+                                    <span>@postagem.IdUsuario"Usuario#"</span>
+
+                                </div>
+
+                                <div class="post">
+                                    <div class="post-box">
+                                        @postagem.Descricao
+                                    </div>
+
+                                </div>
+
+                                <button @onclick="@(async () => await DeletaPostagem(postagem))">Apagar postagem</button>
+                                
+                            </div>
+                        }
+                    }
+                    else
+                    {
+                        <div><span><strong>Nenhuma postagem foi feita</strong></span></div>
+                    }
+
+                }
+                else
+                {
+                //nesse caso o usuário está fazendo uma busca por postagens e só apareceram postagens correspondentes à
+                    <span style="color:red;">Resultados da busca por @texto_da_busca:</span>
+                    @if (Postagens.Any())
+                    {
+                        @foreach (var postagem in Postagens)
+                        {
+                            string? a = postagem.Descricao;
+
+                            @if (a.Contains(texto_da_busca))
+                            {
+                                <div class="publicacao">
+                                    <div class="perfil">
+                                        <img src="#" alt="@postagem.IdUsuario">
+                                        <span>@postagem.IdUsuario"Usuario#"</span>
+
+                                    </div>
+
+                                    <div class="post">
+                                        <div class="post-box">
+                                            @postagem.Descricao
+                                        </div>
+
+                                    </div>
+                                    @* <button>Apagar postagem</button> *@
+
+                                </div>
+                            }
+                        }
+                    }
+                    else
+                    {
+                        <div><span><strong>Nenhuma postagem foi feita</strong></span></div>
+                    }
+                }
+
+            </div>
+
+
+
+        </section>
+
+        <div class="configuracoes">
+            <a class="box-config" href="#">configurações</a>
+        </div>
+    </div>
+</body>
+
+@Body
+
+<script>
+    window.Confirmar = function (mensagem, id) {
+        return confirm(mensagem);
+    }
+
+
+    window.MostrarMensagemRecarregarPagina = function (mensagem) {
+        alert(mensagem);
+        location.reload();
+    }
+</script>
+
+@code {
+
+    private string texto_postagem { get; set; } = "";
+
+
+    //para buscar postagens
+
+    private string? texto_da_busca = "";
+    private bool clicou_em_buscar = false;
+
+    private async Task BuscaPostagem()
+    {
+        clicou_em_buscar = true;
+    }
+
+    List<Postagem> Postagens = new List<Postagem>();
+    protected override async Task OnInitializedAsync()
+    {
+        await AtualizaPostagens();
+    }
+
+
+    private async Task AtualizaPostagens()
+    {
+        Postagens = await service.RetornaPostagemAsync();
+    }
+
+    public async Task AddPostagem()
+    {
+
+        //parâmetros: id do usuário, texto da postagem
+        Postagem postagem = new Postagem(2, texto_postagem);
+
+        await service.AddPostagemAsync(postagem);
+        await AtualizaPostagens();
+        await JsRuntime.InvokeVoidAsync("location.reload");
+    }
+
+    
+    private async Task DeletaPostagem(Postagem postagem)
+    {
+        string mensagemAviso = "Tem certeza que deseja deletar postagem? Esta alteração não poderá ser revertida.";
+        bool confirmed = await JsRuntime.InvokeAsync<bool>("Confirmar", mensagemAviso, postagem.Id);
+        if (confirmed)
+        {
+            await service.DeletePostagemAsync(postagem);
+            
+            string mensagemConfirmada = $"Postagem excluída com sucesso!";
+            
+            await JsRuntime.InvokeVoidAsync("MostrarMensagemRecarregarPagina", mensagemConfirmada);
+
+            await AtualizaPostagens();
+        }  
+    }
+}
