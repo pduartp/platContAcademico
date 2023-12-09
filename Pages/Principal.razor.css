@@ -423,6 +423,7 @@ body{
           .bloco_postagem_feita_texto2{            
             
             overflow-wrap: break-word;
+            white-space: pre-wrap;
           
           }    
 
