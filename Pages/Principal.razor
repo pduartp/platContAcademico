@@ -7,144 +7,344 @@
 @inherits LayoutComponentBase
 
 @namespace Principal
-
-<PageTitle>Principal</PageTitle>
-
 <head>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="Principal.razor.css">
+   
+    <link rel = "stylesheet" href = "Principal.razor.css">
     <link rel='stylesheet' href='//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css'
         type='text/css'>
 
 </head>
 
-<body>
-    <div class="container-principal">
-        <aside class="menu-tags">
-            <h1 class="logo">Logo</h1>
+<section class = "tela" style = "height: @altura_janela_string;">
 
-            <h3>Em Alta</h3>
-            <div class="tags">
-                <a href="#">#Tag1</a>
-                <a href="#">#Tag2</a>
-                <a href="#">#Tag3</a>
-                <a href="#">#Tag4</a>
-                <a href="#">#Tag5</a>
+    <header class = "bloco1">
+        <div class = "title_nav">
+            <span>Em alta</span>
+        </div>
+
+        <div class = "tag">
+            <span>#tag1</span>
+        </div>
+
+        <div class = "tag">
+            <span>#tag2</span>
+        </div>
+
+        <div class = "tag">
+            <span>#tag3</span>
+        </div>
+
+        <div class = "tag">
+            <span>#tag4</span>
+        </div>
+        
+    </header>
+
+    <section  class = "bloco2">
+        <div style = "margin-bottom:50px;" class = "bloco21">
+            <div class = "bloco2_title">
+                <h1>Sua plataforma</h1>
             </div>
-        </aside>
 
-        <section class="secao-postagens">
-            <h2>SuaPlataformaLogo</h2>
-
-            <div class="input-search">
-                <input type="text" placeholder="O que você está procurando?" @bind="@texto_da_busca">
-                <button class="search-btn" @onclick="BuscaPostagem">Pesquisar</button>
+            <div class = "bloco_pesquisa">
+                
+                <input class = "barra" type = "text" placeholder = "Nos diga o que você está procurando" @bind="@texto_da_busca" />
+                                
+                <button class = "pesquisar" @onclick="BuscaPostagem">Pesquisar</button>
+                
             </div>
 
-            <div class="publicacao">
-                <div class="perfil">
-                    <img src="#" alt="">
-                    <span>Fulaninho</span>
+            <div class = "bloco_postagem">
+                
+                <textarea class = "bloco_postagem_texto" placeholder = "Compartilhe conteúdo com seus colegas" @bind="@texto_postagem"></textarea>
+                
+                <div class = "bloco_postagem_arquivo">    
+                    <input class = "bloco_postagem_arquivo_button" type = "file" />   
                 </div>
 
-                <div class="post">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Compartilhe com seus colegas!"
-                        @bind="@texto_postagem">
-                    </textarea>
-                    <input type="file" id="fileInput" style="display: none;">
-                    <label for="fileInput" class="attachment-btn">Anexar Arquivo</label>
-                    <button class="post-btn" @onclick="AddPostagem">Publicar</button>
-                </div>
             </div>
             
-            <span style="color:red;">lista de postagens enquanto não foi feita nenhuma busca</span>
-           
-            <div class="publicacoes-box">
+            
+            <button class = "publicar" @onclick="AddPostagem">Publicar</button>
+            
 
-                @if (clicou_em_buscar == false)
-                {
-                //adicionar css das postagens
+            @if (clicou_em_buscar == false)
+            {
+            //adicionar css das postagens
 
-                    @if (Postagens.Any())
-                    {
-                        @foreach (var postagem in Postagens)
-                        {
-                            <div class="publicacao">
-                                <div class="perfil">
-                                    <img src="#" alt="@postagem.IdUsuario">
-                                    <span>@postagem.IdUsuario"Usuario#"</span>
+                @if (Postagens.Any())
+                {   
+                    
 
-                                </div>
+                    @foreach (var postagem in Postagens)
+                    {   
+                        
+                     
+                        
+                        /*
+                        <div class = "bloco_para_postagem">
+                            <div class = "bloco_postagem_feita">
 
-                                <div class="post">
-                                    <div class="post-box">
-                                        @postagem.Descricao
+                                <div class = "bloco_postagem_feita_user">
+
+                                    <div class = "bloco_postagem_feita_user_esquerda">
+                                    
+                                        <div class = "bloco_postagem_feita_user_image"></div>
+                                        <div class = "bloco_postagem_feita_user_name"><span> @postagem.IdUsuario"Usuario#" </span></div>
+                                    
                                     </div>
 
+                                    <div class = "buttons">
+                                        <div class = "button_editar">editar</div>
+                                        <div class = "button_excluir" @onclick="@(async () => await DeletaPostagem(postagem))">excluir</div>
+                                    </div>
+
+                                </div>    
+
+                                <div style = "margin-top:0px; " class = "bloco_postagem_feita_texto"> 
+                                    <div class = "bloco_postagem_feita_texto2">
+                                        <span> @postagem.Descricao </span>           
+                                    </div>
                                 </div>
 
-                                <button @onclick="@(async () => await DeletaPostagem(postagem))">Apagar postagem</button>
                                 
-                            </div>
-                        }
-                    }
-                    else
-                    {
-                        <div><span><strong>Nenhuma postagem foi feita</strong></span></div>
-                    }
+
+                            </div> 
+
+                        </div>
+                        */
+
+                        @if(modo_edicao == false){
+                                    <div class = "bloco_para_postagem">
+                                        <div class = "bloco_postagem_feita">
+
+                                            <div class = "bloco_postagem_feita_user">
+
+                                                <div class = "bloco_postagem_feita_user_esquerda">
+                                            
+                                                    <div class = "bloco_postagem_feita_user_image"></div>
+                                                    <div class = "bloco_postagem_feita_user_name"><span> @postagem.IdUsuario"Usuario#" </span></div>
+                                            
+                                                </div>
+
+                                                <div class = "buttons">
+                                                    <div class = "button_editar"  @onclick="@(async () => await EditarPostagem(postagem))">editar</div>
+                                                    <div class = "button_excluir" @onclick="@(async () => await DeletaPostagem(postagem))">excluir</div>
+                                                </div>
+
+                                            </div>    
+
+                                            <div style = "margin-top:0px;" class = "bloco_postagem_feita_texto"> 
+                                                <div class = "bloco_postagem_feita_texto2">
+                                                    <span>@postagem.Descricao </span>
+                                                </div>               
+                                            </div>                                    
+
+                                        </div> 
+
+                                    </div>
+                                }
+
+                                else{
+                                    <div class = "bloco_para_postagem">
+                                        <div class = "bloco_postagem_feita">
+
+                                            <div class = "bloco_postagem_feita_user">
+
+                                                <div class = "bloco_postagem_feita_user_esquerda">
+                                                
+                                                    <div class = "bloco_postagem_feita_user_image"></div>
+                                                    <div class = "bloco_postagem_feita_user_name"><span> @postagem.IdUsuario"Usuario#" </span></div>
+                                                
+                                                </div>
+
+                                                @if(id_postagem_atual == postagem.Id){
+
+                                                    <div class = "buttons">
+                                                        <div class = "button_salvar_alteracoes"  @onclick="@(async () => await SalvarPostagem())">Salvar edição</div>  
+                                                        <div class = "button_cancelar_edicao"  @onclick="@(async () => await CancelarEdicao(postagem))">Cancelar edição</div>                                                                                             
+                                                    </div>
+
+                                                }
+
+                                            </div>  
+
+                                            @if(id_postagem_atual == postagem.Id){  
+
+                                                <div style = "margin-top:0px; " class = "bloco_postagem_feita_texto"> 
+                                                    <div class = "bloco_postagem_feita_texto2">
+                                                        <textarea class = "bloco_postagem_texto" placeholder = "Compartilhe conteúdo com seus colegas" @bind="@postagem.Descricao"></textarea>   
+                                                    </div>
+                                                </div>
+
+                                            }
+                                            else{
+                                                <div style = "margin-top:0px; opacity:0.5; " class = "bloco_postagem_feita_texto"> 
+                                                    <div class = "bloco_postagem_feita_texto2">
+                                                        <span>@postagem.Descricao </span>
+                                                    </div>               
+                                                </div>  
+                                            }                                    
+
+                                        </div> 
+
+                                    </div>
+
+                                } 
+                       
+                        
+                    }                   
 
                 }
-                else
-                {
+
+                else{
+                    <div><span><strong>Nenhuma postagem foi feita</strong></span></div>
+                }
+            }  
+            
+            
+
+            else
+            {
+
                 //nesse caso o usuário está fazendo uma busca por postagens e só apareceram postagens correspondentes à
-                    <span style="color:red;">Resultados da busca por @texto_da_busca:</span>
+
+                
+
+                <div class = "bloco_texto_apresentando_postagens_buscadas">
+                    <span class = "texto_apresentando_postagens_buscadas">Resultados da busca por @texto_da_busca:</span>
+                </div>
+
+                    
+
                     @if (Postagens.Any())
                     {
                         @foreach (var postagem in Postagens)
-                        {
+                        {   
+                            
+                           
                             string? a = postagem.Descricao;
 
                             @if (a.Contains(texto_da_busca))
-                            {
-                                <div class="publicacao">
-                                    <div class="perfil">
-                                        <img src="#" alt="@postagem.IdUsuario">
-                                        <span>@postagem.IdUsuario"Usuario#"</span>
+                            {   
 
-                                    </div>
+                                <div class = "bloco_para_postagem">
+                                    <div class = "bloco_postagem_feita">
 
-                                    <div class="post">
-                                        <div class="post-box">
-                                            @postagem.Descricao
-                                        </div>
+                                        <div class = "bloco_postagem_feita_user">
 
-                                    </div>
-                                    @* <button>Apagar postagem</button> *@
+                                            <div class = "bloco_postagem_feita_user_esquerda">
+                                            
+                                                <div class = "bloco_postagem_feita_user_image"></div>
+                                                <div class = "bloco_postagem_feita_user_name"><span> @postagem.IdUsuario"Usuario#" </span></div>
+                                            
+                                            </div>                                            
+
+                                        </div>    
+
+                                        <div style = "margin-top:0px; " class = "bloco_postagem_feita_texto"> 
+                                            <div class = "bloco_postagem_feita_texto2">
+                                                <span> @postagem.Descricao </span>           
+                                            </div>
+                                        </div>                                        
+
+                                    </div> 
 
                                 </div>
+                                /*
+                                @if(modo_edicao == false){
+                                    <div class = "bloco_para_postagem">
+                                        <div class = "bloco_postagem_feita">
+
+                                            <div class = "bloco_postagem_feita_user">
+
+                                                <div class = "bloco_postagem_feita_user_esquerda">
+                                            
+                                                    <div class = "bloco_postagem_feita_user_image"></div>
+                                                    <div class = "bloco_postagem_feita_user_name"><span> @postagem.IdUsuario"Usuario#" </span></div>
+                                            
+                                                </div>
+
+                                                <div class = "buttons">
+                                                    <div class = "button_editar"  @onclick="@(async () => await EditarPostagem(postagem))">editar</div>
+                                                    <div class = "button_excluir" @onclick="@(async () => await DeletaPostagem(postagem))">excluir</div>
+                                                </div>
+
+                                            </div>    
+
+                                            <div style = "margin-top:0px;" class = "bloco_postagem_feita_texto"> 
+                                                <div class = "bloco_postagem_feita_texto2">
+                                                    <span>@postagem.Descricao </span>
+                                                </div>               
+                                            </div>                                    
+
+                                        </div> 
+
+                                    </div>
+                                }
+
+                                else{
+                                    <div class = "bloco_para_postagem">
+                                        <div class = "bloco_postagem_feita">
+
+                                            <div class = "bloco_postagem_feita_user">
+
+                                                <div class = "bloco_postagem_feita_user_esquerda">
+                                                
+                                                    <div class = "bloco_postagem_feita_user_image"></div>
+                                                    <div class = "bloco_postagem_feita_user_name"><span> @postagem.IdUsuario"Usuario#" </span></div>
+                                                
+                                                </div>
+
+                                                <div class = "buttons">
+                                                    <div class = "button_salvar_alteracoes"  @onclick="@(async () => await SalvarPostagem())">Salvar edição</div>  
+                                                    <div class = "button_cancelar_edicao"  @onclick="@(async () => await CancelarEdicao(postagem))">Cancelar edição</div>                                                                                             
+                                                </div>
+
+                                            </div>    
+
+                                            <div style = "margin-top:0px; " class = "bloco_postagem_feita_texto"> 
+                                                <div class = "bloco_postagem_feita_texto2">
+                                                    <textarea class = "bloco_postagem_texto" placeholder = "Compartilhe conteúdo com seus colegas" @bind="@postagem.Descricao"></textarea>   
+                                                </div>
+                                            </div>                                    
+
+                                        </div> 
+
+                                    </div>
+
+                                } 
+                                */   
                             }
+                            
                         }
                     }
                     else
                     {
                         <div><span><strong>Nenhuma postagem foi feita</strong></span></div>
                     }
-                }
+                }  
 
-            </div>
+                   
 
-
-
-        </section>
-
+        </div>
+        
         <div class="configuracoes">
             <a class="box-config" href="#">configurações</a>
         </div>
-    </div>
-</body>
+
+        
+
+    </section> 
+
+   
+
+</section>
+
+
 
 @Body
 
@@ -157,12 +357,28 @@
     window.MostrarMensagemRecarregarPagina = function (mensagem) {
         alert(mensagem);
         location.reload();
-    }
+    }  
+
 </script>
 
 @code {
 
+    List<Postagem> Postagens = new List<Postagem>();
+
+    //Para mudar tamanho da janela
+
+    private int altura_janela {get; set; } = 1000;
+    private string altura_janela_string {get; set;} = "2000px";
+   
+    
+
     private string texto_postagem { get; set; } = "";
+
+    //para editar postagem
+    private bool modo_edicao = false;
+    private string? variavel_auxiliar = "";
+
+    private int id_postagem_atual = 0;
 
 
     //para buscar postagens
@@ -170,15 +386,39 @@
     private string? texto_da_busca = "";
     private bool clicou_em_buscar = false;
 
-    private async Task BuscaPostagem()
+    private async Task EditarPostagem(Postagem postagem)
     {
-        clicou_em_buscar = true;
+        modo_edicao = true;
+        variavel_auxiliar = postagem.Descricao;
+
+        id_postagem_atual = postagem.Id;
+
     }
 
-    List<Postagem> Postagens = new List<Postagem>();
+    private async Task SalvarPostagem()
+    {
+        modo_edicao = false;
+    }
+
+    private async Task CancelarEdicao(Postagem postagem){
+        postagem.Descricao = variavel_auxiliar;
+        modo_edicao = false;
+    }    
+
+    private async Task BuscaPostagem()
+    {           
+        clicou_em_buscar = true;      
+    }
+
+    
     protected override async Task OnInitializedAsync()
     {
         await AtualizaPostagens();
+
+        //muda tamanho da janela
+        altura_janela = 1000 + 500 * Postagens.Count;   
+        altura_janela_string = altura_janela + "px";
+
     }
 
 
