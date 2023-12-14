@@ -326,28 +326,22 @@
                     {
                         <div><span><strong>Nenhuma postagem foi feita</strong></span></div>
                     }
-                }  
-
-                   
+                }                     
 
         </div>
         
         <div class="configuracoes">
             <a class="box-config" href="#">configurações</a>
-        </div>
+        </div>       
 
-        
-
-    </section> 
-
-   
+    </section>  
 
 </section>
 
 
 
 @Body
-
+@*
 <script>
     window.Confirmar = function (mensagem, id) {
         return confirm(mensagem);
@@ -360,6 +354,8 @@
     }  
 
 </script>
+
+*@
 
 @code {
 
@@ -442,14 +438,19 @@
     private async Task DeletaPostagem(Postagem postagem)
     {
         string mensagemAviso = "Tem certeza que deseja deletar postagem? Esta alteração não poderá ser revertida.";
-        bool confirmed = await JsRuntime.InvokeAsync<bool>("Confirmar", mensagemAviso, postagem.Id);
+        
+        
+        
+        bool confirmed = await JsRuntime.InvokeAsync<bool>("confirm", mensagemAviso);
         if (confirmed)
         {
             await service.DeletePostagemAsync(postagem);
             
             string mensagemConfirmada = $"Postagem excluída com sucesso!";
             
-            await JsRuntime.InvokeVoidAsync("MostrarMensagemRecarregarPagina", mensagemConfirmada);
+            //await JsRuntime.InvokeVoidAsync("MostrarMensagemRecarregarPagina", mensagemConfirmada);
+
+            await JsRuntime.InvokeVoidAsync("alert",mensagemConfirmada);
 
             await AtualizaPostagens();
         }  
