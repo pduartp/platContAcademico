@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xcRTNalUbLgV8QnuWroAlCrUqGGcT19JCspz1STiGu8=",
+  "Hash": "sw6b7EG4qeeyJu8aKOc9FjVA/qEe80t7vKycnAYYOp4=",
   "Source": "TrabConteudoAcademico",
   "BasePath": "_content/TrabConteudoAcademico",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "TrabConteudoAcademico\\wwwroot",
       "Source": "TrabConteudoAcademico",
-      "ContentRoot": "C:\\Users\\patri\\Facul\\2023-2\\.NET\\platContAcademico-test\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IFNMG\\Desktop\\a\\projeto7\\platContAcademico\\wwwroot\\",
       "BasePath": "_content/TrabConteudoAcademico",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\patri\\Facul\\2023-2\\.NET\\platContAcademico-test\\obj\\Debug\\net6.0\\scopedcss\\bundle\\TrabConteudoAcademico.styles.css",
+      "Identity": "C:\\Users\\IFNMG\\Desktop\\a\\projeto7\\platContAcademico\\obj\\Debug\\net6.0\\scopedcss\\bundle\\TrabConteudoAcademico.styles.css",
       "SourceId": "TrabConteudoAcademico",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\patri\\Facul\\2023-2\\.NET\\platContAcademico-test\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\IFNMG\\Desktop\\a\\projeto7\\platContAcademico\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/TrabConteudoAcademico",
       "RelativePath": "TrabConteudoAcademico.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\patri\\Facul\\2023-2\\.NET\\platContAcademico-test\\obj\\Debug\\net6.0\\scopedcss\\bundle\\TrabConteudoAcademico.styles.css"
+      "OriginalItemSpec": "C:\\Users\\IFNMG\\Desktop\\a\\projeto7\\platContAcademico\\obj\\Debug\\net6.0\\scopedcss\\bundle\\TrabConteudoAcademico.styles.css"
     },
     {
-      "Identity": "C:\\Users\\patri\\Facul\\2023-2\\.NET\\platContAcademico-test\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\TrabConteudoAcademico.bundle.scp.css",
+      "Identity": "C:\\Users\\IFNMG\\Desktop\\a\\projeto7\\platContAcademico\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\TrabConteudoAcademico.bundle.scp.css",
       "SourceId": "TrabConteudoAcademico",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\patri\\Facul\\2023-2\\.NET\\platContAcademico-test\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\IFNMG\\Desktop\\a\\projeto7\\platContAcademico\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/TrabConteudoAcademico",
       "RelativePath": "TrabConteudoAcademico.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\patri\\Facul\\2023-2\\.NET\\platContAcademico-test\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\TrabConteudoAcademico.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\IFNMG\\Desktop\\a\\projeto7\\platContAcademico\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\TrabConteudoAcademico.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\patri\\Facul\\2023-2\\.NET\\platContAcademico-test\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\IFNMG\\Desktop\\a\\projeto7\\platContAcademico\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "TrabConteudoAcademico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patri\\Facul\\2023-2\\.NET\\platContAcademico-test\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IFNMG\\Desktop\\a\\projeto7\\platContAcademico\\wwwroot\\",
       "BasePath": "_content/TrabConteudoAcademico",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\patri\\Facul\\2023-2\\.NET\\platContAcademico-test\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\IFNMG\\Desktop\\a\\projeto7\\platContAcademico\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "TrabConteudoAcademico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patri\\Facul\\2023-2\\.NET\\platContAcademico-test\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IFNMG\\Desktop\\a\\projeto7\\platContAcademico\\wwwroot\\",
       "BasePath": "_content/TrabConteudoAcademico",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\patri\\Facul\\2023-2\\.NET\\platContAcademico-test\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "C:\\Users\\IFNMG\\Desktop\\a\\projeto7\\platContAcademico\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "TrabConteudoAcademico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patri\\Facul\\2023-2\\.NET\\platContAcademico-test\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IFNMG\\Desktop\\a\\projeto7\\platContAcademico\\wwwroot\\",
       "BasePath": "_content/TrabConteudoAcademico",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\patri\\Facul\\2023-2\\.NET\\platContAcademico-test\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "C:\\Users\\IFNMG\\Desktop\\a\\projeto7\\platContAcademico\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "TrabConteudoAcademico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patri\\Facul\\2023-2\\.NET\\platContAcademico-test\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IFNMG\\Desktop\\a\\projeto7\\platContAcademico\\wwwroot\\",
       "BasePath": "_content/TrabConteudoAcademico",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\patri\\Facul\\2023-2\\.NET\\platContAcademico-test\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "C:\\Users\\IFNMG\\Desktop\\a\\projeto7\\platContAcademico\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "TrabConteudoAcademico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patri\\Facul\\2023-2\\.NET\\platContAcademico-test\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IFNMG\\Desktop\\a\\projeto7\\platContAcademico\\wwwroot\\",
       "BasePath": "_content/TrabConteudoAcademico",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "C:\\Users\\patri\\Facul\\2023-2\\.NET\\platContAcademico-test\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "C:\\Users\\IFNMG\\Desktop\\a\\projeto7\\platContAcademico\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "TrabConteudoAcademico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patri\\Facul\\2023-2\\.NET\\platContAcademico-test\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IFNMG\\Desktop\\a\\projeto7\\platContAcademico\\wwwroot\\",
       "BasePath": "_content/TrabConteudoAcademico",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\Users\\patri\\Facul\\2023-2\\.NET\\platContAcademico-test\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "C:\\Users\\IFNMG\\Desktop\\a\\projeto7\\platContAcademico\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "TrabConteudoAcademico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patri\\Facul\\2023-2\\.NET\\platContAcademico-test\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IFNMG\\Desktop\\a\\projeto7\\platContAcademico\\wwwroot\\",
       "BasePath": "_content/TrabConteudoAcademico",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\Users\\patri\\Facul\\2023-2\\.NET\\platContAcademico-test\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "C:\\Users\\IFNMG\\Desktop\\a\\projeto7\\platContAcademico\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "TrabConteudoAcademico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patri\\Facul\\2023-2\\.NET\\platContAcademico-test\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IFNMG\\Desktop\\a\\projeto7\\platContAcademico\\wwwroot\\",
       "BasePath": "_content/TrabConteudoAcademico",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "C:\\Users\\patri\\Facul\\2023-2\\.NET\\platContAcademico-test\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "C:\\Users\\IFNMG\\Desktop\\a\\projeto7\\platContAcademico\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "TrabConteudoAcademico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patri\\Facul\\2023-2\\.NET\\platContAcademico-test\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IFNMG\\Desktop\\a\\projeto7\\platContAcademico\\wwwroot\\",
       "BasePath": "_content/TrabConteudoAcademico",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\Users\\patri\\Facul\\2023-2\\.NET\\platContAcademico-test\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "C:\\Users\\IFNMG\\Desktop\\a\\projeto7\\platContAcademico\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "TrabConteudoAcademico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patri\\Facul\\2023-2\\.NET\\platContAcademico-test\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IFNMG\\Desktop\\a\\projeto7\\platContAcademico\\wwwroot\\",
       "BasePath": "_content/TrabConteudoAcademico",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\patri\\Facul\\2023-2\\.NET\\platContAcademico-test\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "C:\\Users\\IFNMG\\Desktop\\a\\projeto7\\platContAcademico\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "TrabConteudoAcademico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patri\\Facul\\2023-2\\.NET\\platContAcademico-test\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IFNMG\\Desktop\\a\\projeto7\\platContAcademico\\wwwroot\\",
       "BasePath": "_content/TrabConteudoAcademico",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\Users\\patri\\Facul\\2023-2\\.NET\\platContAcademico-test\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\IFNMG\\Desktop\\a\\projeto7\\platContAcademico\\wwwroot\\css\\site.css",
       "SourceId": "TrabConteudoAcademico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patri\\Facul\\2023-2\\.NET\\platContAcademico-test\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IFNMG\\Desktop\\a\\projeto7\\platContAcademico\\wwwroot\\",
       "BasePath": "_content/TrabConteudoAcademico",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\patri\\Facul\\2023-2\\.NET\\platContAcademico-test\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\IFNMG\\Desktop\\a\\projeto7\\platContAcademico\\wwwroot\\favicon.ico",
       "SourceId": "TrabConteudoAcademico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patri\\Facul\\2023-2\\.NET\\platContAcademico-test\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IFNMG\\Desktop\\a\\projeto7\\platContAcademico\\wwwroot\\",
       "BasePath": "_content/TrabConteudoAcademico",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
