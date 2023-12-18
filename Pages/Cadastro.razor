@@ -1,0 +1,40 @@
+﻿@page "/cadastro"
+
+@inherits LayoutComponentBase
+@namespace Cadastro
+<PageTitle>Cadastro</PageTitle>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="Cadastro.razor.css">
+    <link rel='stylesheet' href='//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css'
+        type='text/css'>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Cadastre-se</h1>
+        <form class="formulario" action="#" method="post">
+            <label for="firstname"></label>
+            <input type="text" id="firstname" name="firstname" required placeholder="Insira nome completo">
+
+            <label for="email"></label>
+            <input type="email" id="email" name="email" required placeholder="Insira seu email">
+
+            <label for="password"></label>
+            <input type="password" id="password" name="password" minlength="8" required placeholder="insira uma senha">
+
+            <div class="buttons">
+                <button class="button btn1" type="submit">Cadastrar</button>
+            </div>
+        </form>
+
+    </div>
+
+    @Body
+</body>
+@code {
+
+}

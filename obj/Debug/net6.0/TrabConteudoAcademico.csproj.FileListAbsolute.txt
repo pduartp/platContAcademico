@@ -497,3 +497,119 @@ C:\Users\patri\Facul\2023-2\.NET\platContAcademico-test\obj\Debug\net6.0\scopedc
 C:\Users\patri\Facul\2023-2\.NET\platContAcademico-test\obj\Debug\net6.0\TrabConteudoAcademico.csproj.CopyComplete
 C:\Users\patri\Facul\2023-2\.NET\platContAcademico-test\obj\Debug\net6.0\TrabConteudoAcademico.genruntimeconfig.cache
 C:\Users\patri\Facul\2023-2\.NET\platContAcademico-test\obj\Debug\net6.0\ref\TrabConteudoAcademico.dll
+C:\Users\IFNMG\Desktop\a\projeto7\platContAcademico\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\IFNMG\Desktop\a\projeto7\platContAcademico\bin\Debug\net6.0\appsettings.json
+C:\Users\IFNMG\Desktop\a\projeto7\platContAcademico\bin\Debug\net6.0\TrabConteudoAcademico.staticwebassets.runtime.json
+C:\Users\IFNMG\Desktop\a\projeto7\platContAcademico\bin\Debug\net6.0\TrabConteudoAcademico.exe
+C:\Users\IFNMG\Desktop\a\projeto7\platContAcademico\bin\Debug\net6.0\TrabConteudoAcademico.deps.json
+C:\Users\IFNMG\Desktop\a\projeto7\platContAcademico\bin\Debug\net6.0\TrabConteudoAcademico.runtimeconfig.json
+C:\Users\IFNMG\Desktop\a\projeto7\platContAcademico\bin\Debug\net6.0\TrabConteudoAcademico.dll
+C:\Users\IFNMG\Desktop\a\projeto7\platContAcademico\bin\Debug\net6.0\TrabConteudoAcademico.pdb
+C:\Users\IFNMG\Desktop\a\projeto7\platContAcademico\bin\Debug\net6.0\Humanizer.dll
+C:\Users\IFNMG\Desktop\a\projeto7\platContAcademico\bin\Debug\net6.0\Microsoft.Data.Sqlite.dll
+C:\Users\IFNMG\Desktop\a\projeto7\platContAcademico\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\IFNMG\Desktop\a\projeto7\platContAcademico\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\IFNMG\Desktop\a\projeto7\platContAcademico\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\IFNMG\Desktop\a\projeto7\platContAcademico\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\IFNMG\Desktop\a\projeto7\platContAcademico\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\IFNMG\Desktop\a\projeto7\platContAcademico\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\IFNMG\Desktop\a\projeto7\platContAcademico\bin\Debug\net6.0\SQLitePCLRaw.batteries_v2.dll
+C:\Users\IFNMG\Desktop\a\projeto7\platContAcademico\bin\Debug\net6.0\SQLitePCLRaw.core.dll
+C:\Users\IFNMG\Desktop\a\projeto7\platContAcademico\bin\Debug\net6.0\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\IFNMG\Desktop\a\projeto7\platContAcademico\bin\Debug\net6.0\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\IFNMG\Desktop\a\projeto7\platContAcademico\bin\Debug\net6.0\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\IFNMG\Desktop\a\projeto7\platContAcademico\bin\Debug\net6.0\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\IFNMG\Desktop\a\projeto7\platContAcademico\bin\Debug\net6.0\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\IFNMG\Desktop\a\projeto7\platContAcademico\bin\Debug\net6.0\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Users\IFNMG\Desktop\a\projeto7\platContAcademico\bin\Debug\net6.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\IFNMG\Desktop\a\projeto7\platContAcademico\bin\Debug\net6.0\runtimes\linux-s390x\native\libe_sqlite3.so
+C:\Users\IFNMG\Desktop\a\projeto7\platContAcademico\bin\Debug\net6.0\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\IFNMG\Desktop\a\projeto7\platContAcademico\bin\Debug\net6.0\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\IFNMG\Desktop\a\projeto7\platContAcademico\bin\Debug\net6.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+C:\Users\IFNMG\Desktop\a\projeto7\platContAcademico\bin\Debug\net6.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\IFNMG\Desktop\a\projeto7\platContAcademico\bin\Debug\net6.0\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\IFNMG\Desktop\a\projeto7\platContAcademico\bin\Debug\net6.0\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\IFNMG\Desktop\a\projeto7\platContAcademico\bin\Debug\net6.0\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\IFNMG\Desktop\a\projeto7\platContAcademico\bin\Debug\net6.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\IFNMG\Desktop\a\projeto7\platContAcademico\obj\Debug\net6.0\TrabConteudoAcademico.csproj.AssemblyReference.cache
+C:\Users\IFNMG\Desktop\a\projeto7\platContAcademico\obj\Debug\net6.0\TrabConteudoAcademico.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IFNMG\Desktop\a\projeto7\platContAcademico\obj\Debug\net6.0\TrabConteudoAcademico.AssemblyInfoInputs.cache
+C:\Users\IFNMG\Desktop\a\projeto7\platContAcademico\obj\Debug\net6.0\TrabConteudoAcademico.AssemblyInfo.cs
+C:\Users\IFNMG\Desktop\a\projeto7\platContAcademico\obj\Debug\net6.0\TrabConteudoAcademico.csproj.CoreCompileInputs.cache
+C:\Users\IFNMG\Desktop\a\projeto7\platContAcademico\obj\Debug\net6.0\TrabConteudoAcademico.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\IFNMG\Desktop\a\projeto7\platContAcademico\obj\Debug\net6.0\TrabConteudoAcademico.RazorAssemblyInfo.cache
+C:\Users\IFNMG\Desktop\a\projeto7\platContAcademico\obj\Debug\net6.0\TrabConteudoAcademico.RazorAssemblyInfo.cs
+C:\Users\IFNMG\Desktop\a\projeto7\platContAcademico\obj\Debug\net6.0\staticwebassets\msbuild.TrabConteudoAcademico.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\IFNMG\Desktop\a\projeto7\platContAcademico\obj\Debug\net6.0\staticwebassets\msbuild.build.TrabConteudoAcademico.props
+C:\Users\IFNMG\Desktop\a\projeto7\platContAcademico\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.TrabConteudoAcademico.props
+C:\Users\IFNMG\Desktop\a\projeto7\platContAcademico\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.TrabConteudoAcademico.props
+C:\Users\IFNMG\Desktop\a\projeto7\platContAcademico\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\IFNMG\Desktop\a\projeto7\platContAcademico\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\IFNMG\Desktop\a\projeto7\platContAcademico\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\IFNMG\Desktop\a\projeto7\platContAcademico\obj\Debug\net6.0\scopedcss\Pages\Login.razor.rz.scp.css
+C:\Users\IFNMG\Desktop\a\projeto7\platContAcademico\obj\Debug\net6.0\scopedcss\Pages\Principal.razor.rz.scp.css
+C:\Users\IFNMG\Desktop\a\projeto7\platContAcademico\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\IFNMG\Desktop\a\projeto7\platContAcademico\obj\Debug\net6.0\scopedcss\bundle\TrabConteudoAcademico.styles.css
+C:\Users\IFNMG\Desktop\a\projeto7\platContAcademico\obj\Debug\net6.0\scopedcss\projectbundle\TrabConteudoAcademico.bundle.scp.css
+C:\Users\IFNMG\Desktop\a\projeto7\platContAcademico\obj\Debug\net6.0\TrabConteudoAcademico.csproj.CopyComplete
+C:\Users\IFNMG\Desktop\a\projeto7\platContAcademico\obj\Debug\net6.0\TrabConteudoAcademico.dll
+C:\Users\IFNMG\Desktop\a\projeto7\platContAcademico\obj\Debug\net6.0\refint\TrabConteudoAcademico.dll
+C:\Users\IFNMG\Desktop\a\projeto7\platContAcademico\obj\Debug\net6.0\TrabConteudoAcademico.pdb
+C:\Users\IFNMG\Desktop\a\projeto7\platContAcademico\obj\Debug\net6.0\TrabConteudoAcademico.genruntimeconfig.cache
+C:\Users\IFNMG\Desktop\a\projeto7\platContAcademico\obj\Debug\net6.0\ref\TrabConteudoAcademico.dll
+C:\Users\Warley Ramires\Downloads\dotnet-final\platContAcademico\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Warley Ramires\Downloads\dotnet-final\platContAcademico\bin\Debug\net6.0\appsettings.json
+C:\Users\Warley Ramires\Downloads\dotnet-final\platContAcademico\bin\Debug\net6.0\TrabConteudoAcademico.staticwebassets.runtime.json
+C:\Users\Warley Ramires\Downloads\dotnet-final\platContAcademico\bin\Debug\net6.0\TrabConteudoAcademico.exe
+C:\Users\Warley Ramires\Downloads\dotnet-final\platContAcademico\bin\Debug\net6.0\TrabConteudoAcademico.deps.json
+C:\Users\Warley Ramires\Downloads\dotnet-final\platContAcademico\bin\Debug\net6.0\TrabConteudoAcademico.runtimeconfig.json
+C:\Users\Warley Ramires\Downloads\dotnet-final\platContAcademico\bin\Debug\net6.0\TrabConteudoAcademico.dll
+C:\Users\Warley Ramires\Downloads\dotnet-final\platContAcademico\bin\Debug\net6.0\TrabConteudoAcademico.pdb
+C:\Users\Warley Ramires\Downloads\dotnet-final\platContAcademico\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Warley Ramires\Downloads\dotnet-final\platContAcademico\bin\Debug\net6.0\Microsoft.Data.Sqlite.dll
+C:\Users\Warley Ramires\Downloads\dotnet-final\platContAcademico\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Warley Ramires\Downloads\dotnet-final\platContAcademico\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Warley Ramires\Downloads\dotnet-final\platContAcademico\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Warley Ramires\Downloads\dotnet-final\platContAcademico\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Warley Ramires\Downloads\dotnet-final\platContAcademico\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\Warley Ramires\Downloads\dotnet-final\platContAcademico\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Warley Ramires\Downloads\dotnet-final\platContAcademico\bin\Debug\net6.0\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Warley Ramires\Downloads\dotnet-final\platContAcademico\bin\Debug\net6.0\SQLitePCLRaw.core.dll
+C:\Users\Warley Ramires\Downloads\dotnet-final\platContAcademico\bin\Debug\net6.0\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\Warley Ramires\Downloads\dotnet-final\platContAcademico\bin\Debug\net6.0\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\Warley Ramires\Downloads\dotnet-final\platContAcademico\bin\Debug\net6.0\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\Warley Ramires\Downloads\dotnet-final\platContAcademico\bin\Debug\net6.0\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\Warley Ramires\Downloads\dotnet-final\platContAcademico\bin\Debug\net6.0\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\Warley Ramires\Downloads\dotnet-final\platContAcademico\bin\Debug\net6.0\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Users\Warley Ramires\Downloads\dotnet-final\platContAcademico\bin\Debug\net6.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\Warley Ramires\Downloads\dotnet-final\platContAcademico\bin\Debug\net6.0\runtimes\linux-s390x\native\libe_sqlite3.so
+C:\Users\Warley Ramires\Downloads\dotnet-final\platContAcademico\bin\Debug\net6.0\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\Warley Ramires\Downloads\dotnet-final\platContAcademico\bin\Debug\net6.0\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\Warley Ramires\Downloads\dotnet-final\platContAcademico\bin\Debug\net6.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+C:\Users\Warley Ramires\Downloads\dotnet-final\platContAcademico\bin\Debug\net6.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\Warley Ramires\Downloads\dotnet-final\platContAcademico\bin\Debug\net6.0\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\Warley Ramires\Downloads\dotnet-final\platContAcademico\bin\Debug\net6.0\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\Warley Ramires\Downloads\dotnet-final\platContAcademico\bin\Debug\net6.0\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\Warley Ramires\Downloads\dotnet-final\platContAcademico\bin\Debug\net6.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\Warley Ramires\Downloads\dotnet-final\platContAcademico\obj\Debug\net6.0\TrabConteudoAcademico.csproj.AssemblyReference.cache
+C:\Users\Warley Ramires\Downloads\dotnet-final\platContAcademico\obj\Debug\net6.0\TrabConteudoAcademico.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Warley Ramires\Downloads\dotnet-final\platContAcademico\obj\Debug\net6.0\TrabConteudoAcademico.AssemblyInfoInputs.cache
+C:\Users\Warley Ramires\Downloads\dotnet-final\platContAcademico\obj\Debug\net6.0\TrabConteudoAcademico.AssemblyInfo.cs
+C:\Users\Warley Ramires\Downloads\dotnet-final\platContAcademico\obj\Debug\net6.0\TrabConteudoAcademico.csproj.CoreCompileInputs.cache
+C:\Users\Warley Ramires\Downloads\dotnet-final\platContAcademico\obj\Debug\net6.0\TrabConteudoAcademico.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Warley Ramires\Downloads\dotnet-final\platContAcademico\obj\Debug\net6.0\TrabConteudoAcademico.RazorAssemblyInfo.cache
+C:\Users\Warley Ramires\Downloads\dotnet-final\platContAcademico\obj\Debug\net6.0\TrabConteudoAcademico.RazorAssemblyInfo.cs
+C:\Users\Warley Ramires\Downloads\dotnet-final\platContAcademico\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Warley Ramires\Downloads\dotnet-final\platContAcademico\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Warley Ramires\Downloads\dotnet-final\platContAcademico\obj\Debug\net6.0\scopedcss\Pages\Login.razor.rz.scp.css
+C:\Users\Warley Ramires\Downloads\dotnet-final\platContAcademico\obj\Debug\net6.0\scopedcss\Pages\Principal.razor.rz.scp.css
+C:\Users\Warley Ramires\Downloads\dotnet-final\platContAcademico\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\Warley Ramires\Downloads\dotnet-final\platContAcademico\obj\Debug\net6.0\scopedcss\bundle\TrabConteudoAcademico.styles.css
+C:\Users\Warley Ramires\Downloads\dotnet-final\platContAcademico\obj\Debug\net6.0\scopedcss\projectbundle\TrabConteudoAcademico.bundle.scp.css
+C:\Users\Warley Ramires\Downloads\dotnet-final\platContAcademico\obj\Debug\net6.0\TrabConteudoAcademico.csproj.CopyComplete
+C:\Users\Warley Ramires\Downloads\dotnet-final\platContAcademico\obj\Debug\net6.0\TrabConteudoAcademico.dll
+C:\Users\Warley Ramires\Downloads\dotnet-final\platContAcademico\obj\Debug\net6.0\refint\TrabConteudoAcademico.dll
+C:\Users\Warley Ramires\Downloads\dotnet-final\platContAcademico\obj\Debug\net6.0\TrabConteudoAcademico.pdb
+C:\Users\Warley Ramires\Downloads\dotnet-final\platContAcademico\obj\Debug\net6.0\TrabConteudoAcademico.genruntimeconfig.cache
+C:\Users\Warley Ramires\Downloads\dotnet-final\platContAcademico\obj\Debug\net6.0\ref\TrabConteudoAcademico.dll
+C:\Users\Warley Ramires\Downloads\dotnet-final\platContAcademico\obj\Debug\net6.0\scopedcss\Pages\Cadastro.razor.rz.scp.css

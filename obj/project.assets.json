@@ -1254,26 +1254,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\patri\\.nuget\\packages\\": {}
+    "C:\\Users\\Warley Ramires\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\patri\\Facul\\2023-2\\.NET\\platContAcademico-test\\TrabConteudoAcademico.csproj",
+      "projectUniqueName": "C:\\Users\\Warley Ramires\\Downloads\\dotnet-final\\platContAcademico\\TrabConteudoAcademico.csproj",
       "projectName": "TrabConteudoAcademico",
-      "projectPath": "C:\\Users\\patri\\Facul\\2023-2\\.NET\\platContAcademico-test\\TrabConteudoAcademico.csproj",
-      "packagesPath": "C:\\Users\\patri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\patri\\Facul\\2023-2\\.NET\\platContAcademico-test\\obj\\",
+      "projectPath": "C:\\Users\\Warley Ramires\\Downloads\\dotnet-final\\platContAcademico\\TrabConteudoAcademico.csproj",
+      "packagesPath": "C:\\Users\\Warley Ramires\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Warley Ramires\\Downloads\\dotnet-final\\platContAcademico\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\patri\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Warley Ramires\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1328,7 +1326,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.412\\RuntimeIdentifierGraph.json"
       }
     }
   }
