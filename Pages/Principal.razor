@@ -4,6 +4,8 @@
 @inject IJSRuntime JsRuntime
 @inject NavigationManager navigationManager
 
+@inject StateContainer service2
+
 @inherits LayoutComponentBase
 
 @namespace Principal
@@ -19,8 +21,10 @@
 </head>
 
 <section class = "tela" style = "height: @altura_janela_string;">
+  
 
     <header class = "bloco1">
+        
         <div class = "title_nav">
             <span>Em alta</span>
         </div>
@@ -44,10 +48,15 @@
     </header>
 
     <section  class = "bloco2">
+
+        //@if(service2.usuario is not null){
+
         <div style = "margin-bottom:50px;" class = "bloco21">
             <div class = "bloco2_title">
                 <h1>Sua plataforma</h1>
             </div>
+
+            
 
             <div class = "bloco_pesquisa">
                 
@@ -329,11 +338,18 @@
                 }                     
 
         </div>
+            
+
         
         <div class="configuracoes">
             <a class="box-config" href="#">configurações</a>
         </div>       
-
+        }
+        else{
+            <div>
+                <span style = "font-weight:bold; font-size:300%; ">Faça login para ver as postagens!</span>
+            </div>
+        }
     </section>  
 
 </section>

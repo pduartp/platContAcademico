@@ -5,48 +5,49 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TrabConteudoAcademico
 build_property.RootNamespace = TrabConteudoAcademico
-build_property.ProjectDir = C:\Users\Warley Ramires\Downloads\dotnet-final\platContAcademico\
+build_property.ProjectDir = C:\Users\IFNMG\Desktop\a\projeto8\platContAcademico\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Warley Ramires\Downloads\dotnet-final\platContAcademico
+build_property.MSBuildProjectDirectory = C:\Users\IFNMG\Desktop\a\projeto8\platContAcademico
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Warley Ramires/Downloads/dotnet-final/platContAcademico/App.razor]
+[C:/Users/IFNMG/Desktop/a/projeto8/platContAcademico/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Warley Ramires/Downloads/dotnet-final/platContAcademico/_Imports.razor]
+[C:/Users/IFNMG/Desktop/a/projeto8/platContAcademico/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Warley Ramires/Downloads/dotnet-final/platContAcademico/Pages/Cadastro.razor]
+[C:/Users/IFNMG/Desktop/a/projeto8/platContAcademico/Pages/Cadastro.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FkYXN0cm8ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-r5p3apu4y4
 
-[C:/Users/Warley Ramires/Downloads/dotnet-final/platContAcademico/Pages/Login.razor]
+[C:/Users/IFNMG/Desktop/a/projeto8/platContAcademico/Pages/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-logm6pimnc
 
-[C:/Users/Warley Ramires/Downloads/dotnet-final/platContAcademico/Pages/Principal.razor]
+[C:/Users/IFNMG/Desktop/a/projeto8/platContAcademico/Pages/Principal.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpbmNpcGFsLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-fy11e2y5pz
 
-[C:/Users/Warley Ramires/Downloads/dotnet-final/platContAcademico/Shared/MainLayout.razor]
+[C:/Users/IFNMG/Desktop/a/projeto8/platContAcademico/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-d11ylnvvgr
 
-[C:/Users/Warley Ramires/Downloads/dotnet-final/platContAcademico/Pages/Error.cshtml]
+[C:/Users/IFNMG/Desktop/a/projeto8/platContAcademico/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Warley Ramires/Downloads/dotnet-final/platContAcademico/Pages/_Host.cshtml]
+[C:/Users/IFNMG/Desktop/a/projeto8/platContAcademico/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Warley Ramires/Downloads/dotnet-final/platContAcademico/Pages/_Layout.cshtml]
+[C:/Users/IFNMG/Desktop/a/projeto8/platContAcademico/Pages/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
