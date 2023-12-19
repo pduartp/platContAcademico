@@ -1,6 +1,9 @@
 ﻿@page "/"
 
 @inherits LayoutComponentBase
+
+@inject StateContainer service2
+
 @namespace Login
 <PageTitle>Login</PageTitle>
 
@@ -16,27 +19,61 @@
 <body>
     <div class="container">
 
-        <form class="formulario" action="#" method="post">
-            <label for="email"></label>
-            <input type="email" id="email" name="email" required placeholder="Email">
+        @if(service2.usuario is null){
+        
+            <form class="formulario" action="#" method="post">
+                <label for="email"></label>
+                <input type="email" id="text" name="nome" required placeholder="Nome" @bind = "nome">
 
-            <label for="password"></label>
-            <input type="password" id="password" name="password" required placeholder="Password">
+                <label for="password"></label>
+                <input type="password" id="password" name="password" required placeholder="Senha" @bind = "senha" >
 
-            <a class="esqueceuSenha" href="#">esqueceu sua senha</a>
+                @*<a class="esqueceuSenha" href="#">esqueceu sua senha</a>*@
 
-            <div class="buttons">
-                <button class="button btn1" type="submit">Login</button>
-                <button class="button btn2" type="submit">Cadastre-se</button>
-            </div>
-        </form>
+                <div class="buttons">
+                    <button class="button btn1" type="submit" @onclick = "FazerLogin" >Login</button>
+                    @*<button class="button btn2" type="submit">Cadastre-se</button>*@
+                    
+                
+                </div>
+            </form>
+
+        }
+
+        else{
+            <NavLink href = "/principal" class="button btn2" style = "display:block; height:150px; text-align:center; padding:10%; width:300px; background-color:white; border-radius:40px; font-weight:bold; font-size:140%;" >Ir para a tela de postagens</NavLink>
+        }
 
     </div>
-
-
-
+    <div>
+        <span style = "font-size:200%;">@mensagem</span>
+    </div>
+   
     @Body
+
 </body>
+
 @code {
+
+    public string nome = "";
+    public string senha = "";
+
+    public string mensagem = "";
+
+    Usuario usuario = new Usuario();
+
+    private async Task FazerLogin()
+    {
+        if((nome.Equals(usuario.Nome)) && (senha.Equals(usuario.Senha)) ){
+            service2.AtualizaValor(usuario);
+            mensagem = "Você agora está logado.";
+        }
+        else{
+             mensagem = "senha ou nome incorretos!";
+        }
+        
+    }
+
+    
 
 }
