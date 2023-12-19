@@ -1254,19 +1254,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\IFNMG\\.nuget\\packages\\": {}
+    "C:\\Users\\Warley Ramires\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\IFNMG\\Desktop\\a\\projeto8\\platContAcademico\\TrabConteudoAcademico.csproj",
+      "projectUniqueName": "C:\\Users\\Warley Ramires\\Downloads\\dotnet-final\\platContAcademico\\TrabConteudoAcademico.csproj",
       "projectName": "TrabConteudoAcademico",
-      "projectPath": "C:\\Users\\IFNMG\\Desktop\\a\\projeto8\\platContAcademico\\TrabConteudoAcademico.csproj",
-      "packagesPath": "C:\\Users\\IFNMG\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\IFNMG\\Desktop\\a\\projeto8\\platContAcademico\\obj\\",
+      "projectPath": "C:\\Users\\Warley Ramires\\Downloads\\dotnet-final\\platContAcademico\\TrabConteudoAcademico.csproj",
+      "packagesPath": "C:\\Users\\Warley Ramires\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Warley Ramires\\Downloads\\dotnet-final\\platContAcademico\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\IFNMG\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Warley Ramires\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -1318,24 +1318,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.14, 6.0.14]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[6.0.14, 6.0.14]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.14, 6.0.14]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.14, 6.0.14]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -1344,7 +1326,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.412\\RuntimeIdentifierGraph.json"
       }
     }
   }
